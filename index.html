@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <head>
+  <meta charset=utf-8 />
+  <title>Calculator</title>
+  </head>
+  <body>
+
+  <label>Half this number...
+    <input type="number" id="half-input">
+    <!-- REVIEW: id is whats is refernced in javascript -->
+  </label>
+  <button id="half-button" onclick="halfNumber()">Calculate</button>
+  <br><br>
+
+  <label>Give me your name and I'll give you a fortune...
+    <input id="fortune-input">
+  </label>
+  <button id="fortune-button" onclick="fortune()">Get Fortune</button>
+  <br><br>
+  <div id="fortune-output">
+  </div>
+
+
+  </body>
+</html>
